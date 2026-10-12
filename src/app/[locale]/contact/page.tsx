@@ -41,7 +41,7 @@ export default async function ContactPage({
               href={whatsappLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-all hover:border-whatsapp hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
+              className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-[transform,box-shadow,border-color] hover:border-whatsapp hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
             >
               <span className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-xl bg-whatsapp font-mono text-xs font-medium text-brand-black">
                 WA
@@ -57,7 +57,7 @@ export default async function ContactPage({
               <a
                 key={e.addr}
                 href={`mailto:${e.addr}`}
-                className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-all hover:border-brand-purple hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
+                className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-[transform,box-shadow,border-color] hover:border-brand-purple hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
               >
                 <span className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-xl bg-brand-purple-10 font-mono text-xs font-medium text-brand-purple">
                   @
@@ -72,7 +72,7 @@ export default async function ContactPage({
               href={siteConfig.instagram.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-all hover:border-brand-purple hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
+              className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-[transform,box-shadow,border-color] hover:border-brand-purple hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
             >
               <span className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-xl bg-brand-purple-10 text-brand-purple">
                 <InstagramIcon />

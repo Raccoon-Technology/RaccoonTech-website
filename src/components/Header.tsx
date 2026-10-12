@@ -32,7 +32,7 @@ export default function Header() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-brand-border bg-white/[0.86] backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-brand-border bg-white/95 lg:bg-white/[0.86] lg:backdrop-blur-md">
       <Container className="flex h-[60px] items-center gap-5">
         <Link href="/" onClick={() => setOpen(false)} className="shrink-0">
           <Logo />
@@ -74,18 +74,18 @@ export default function Header() {
           >
             <span className="relative block h-4 w-5">
               <span
-                className={`absolute left-0 h-0.5 w-5 bg-brand-black transition-transform ${
-                  open ? "top-2 rotate-45" : "top-0"
+                className={`absolute top-0 left-0 h-0.5 w-5 bg-brand-black transition-transform duration-200 ${
+                  open ? "translate-y-2 rotate-45" : ""
                 }`}
               />
               <span
-                className={`absolute left-0 top-2 h-0.5 w-5 bg-brand-black transition-opacity ${
+                className={`absolute top-2 left-0 h-0.5 w-5 bg-brand-black transition-opacity duration-200 ${
                   open ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`absolute left-0 h-0.5 w-5 bg-brand-black transition-transform ${
-                  open ? "top-2 -rotate-45" : "top-4"
+                className={`absolute top-4 left-0 h-0.5 w-5 bg-brand-black transition-transform duration-200 ${
+                  open ? "-translate-y-2 -rotate-45" : ""
                 }`}
               />
             </span>
@@ -94,43 +94,37 @@ export default function Header() {
       </Container>
 
       <div
-        className={`grid lg:hidden transition-[grid-template-rows] duration-[250ms] ease-out ${
-          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+        id="mobile-menu"
+        inert={!open}
+        className={`absolute inset-x-0 top-full border-b border-brand-border bg-white shadow-[0_18px_30px_rgba(18,18,18,0.08)] transition-[transform,opacity,visibility] duration-200 ease-out lg:hidden ${
+          open
+            ? "visible translate-y-0 opacity-100"
+            : "invisible -translate-y-2 opacity-0"
         }`}
       >
-        <div
-          id="mobile-menu"
-          className="overflow-hidden border-t border-brand-border bg-white"
-          inert={!open}
-        >
-          <Container
-            className={`flex flex-col gap-1 py-4 transition-opacity duration-200 ${
-              open ? "opacity-100 delay-100" : "opacity-0"
-            }`}
-          >
-            {NAV_ITEMS.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className={`rounded-lg px-3 py-2.5 text-base font-medium ${
-                  pathname === item.href
-                    ? "bg-brand-purple-10 text-brand-purple"
-                    : "text-brand-black"
-                }`}
-              >
-                {t(item.key)}
-              </Link>
-            ))}
+        <Container className="flex flex-col gap-1 py-4">
+          {NAV_ITEMS.map((item) => (
             <Link
-              href="/contact"
+              key={item.href}
+              href={item.href}
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-full bg-brand-purple px-4 py-2.5 text-center text-base font-semibold text-white"
+              className={`rounded-lg px-3 py-2.5 text-base font-medium ${
+                pathname === item.href
+                  ? "bg-brand-purple-10 text-brand-purple"
+                  : "text-brand-black"
+              }`}
             >
-              {t("cta")}
+              {t(item.key)}
             </Link>
-          </Container>
-        </div>
+          ))}
+          <Link
+            href="/contact"
+            onClick={() => setOpen(false)}
+            className="mt-2 rounded-full bg-brand-purple px-4 py-2.5 text-center text-base font-semibold text-white"
+          >
+            {t("cta")}
+          </Link>
+        </Container>
       </div>
     </header>
   );

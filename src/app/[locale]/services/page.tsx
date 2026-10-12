@@ -48,7 +48,7 @@ export default async function ServicesPage({
               return (
                 <div
                   key={key}
-                  className="flex flex-col overflow-hidden rounded-[18px] border border-brand-border bg-white transition-all hover:border-brand-purple-border hover:shadow-[0_18px_44px_rgba(18,18,18,0.07)]"
+                  className="flex flex-col overflow-hidden rounded-[18px] border border-brand-border bg-white transition-[transform,box-shadow,border-color] hover:border-brand-purple-border hover:shadow-[0_18px_44px_rgba(18,18,18,0.07)]"
                 >
                   <div className="flex items-start justify-between gap-4 px-[26px] pt-7">
                     <div>

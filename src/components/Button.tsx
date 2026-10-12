@@ -19,7 +19,7 @@ export default function Button({ variant = "primary", className = "", ...props }
   return (
     <Link
       {...props}
-      className={`inline-flex items-center justify-center rounded-full px-[26px] py-[15px] text-[16px] font-semibold transition-all ${VARIANT_CLASSES[variant]} ${className}`}
+      className={`inline-flex items-center justify-center rounded-full px-[26px] py-[15px] text-[16px] font-semibold transition-colors ${VARIANT_CLASSES[variant]} ${className}`}
     />
   );
 }

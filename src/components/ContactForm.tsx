@@ -39,7 +39,7 @@ export default function ContactForm() {
   }
 
   const inputClasses =
-    "rounded-[10px] border border-[#E2DCEA] bg-white px-3.5 py-[13px] text-[15px] text-brand-black outline-none transition-all placeholder:text-brand-gray-400 focus:border-brand-purple focus:shadow-[0_0_0_3px_rgba(106,27,154,0.12)]";
+    "rounded-[10px] border border-[#E2DCEA] bg-white px-3.5 py-[13px] text-[15px] text-brand-black outline-none transition-[border-color,box-shadow] placeholder:text-brand-gray-400 focus:border-brand-purple focus:shadow-[0_0_0_3px_rgba(106,27,154,0.12)]";
 
   if (status === "sent") {
     return (

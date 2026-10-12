@@ -121,7 +121,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             {[1, 2, 3].map((n) => (
               <div
                 key={n}
-                className="group rounded-2xl border border-brand-border bg-brand-soft px-[26px] pt-[30px] pb-8 transition-all hover:-translate-y-1 hover:border-brand-purple-border hover:shadow-[0_16px_40px_rgba(18,18,18,0.07)]"
+                className="group rounded-2xl border border-brand-border bg-brand-soft px-[26px] pt-[30px] pb-8 transition-[transform,box-shadow,border-color] hover:-translate-y-1 hover:border-brand-purple-border hover:shadow-[0_16px_40px_rgba(18,18,18,0.07)]"
               >
                 <div className="flex h-[42px] w-[42px] items-center justify-center rounded-xl bg-brand-purple-10 font-mono text-[15px] font-medium text-brand-purple">
                   0{n}
@@ -170,7 +170,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <Link
                 key={key}
                 href="/services"
-                className="flex flex-col gap-3 rounded-2xl border border-brand-border bg-white px-6 pt-[26px] pb-7 text-left transition-all hover:-translate-y-1 hover:border-brand-purple hover:shadow-[0_16px_40px_rgba(106,27,154,0.1)]"
+                className="flex flex-col gap-3 rounded-2xl border border-brand-border bg-white px-6 pt-[26px] pb-7 text-left transition-[transform,box-shadow,border-color] hover:-translate-y-1 hover:border-brand-purple hover:shadow-[0_16px_40px_rgba(106,27,154,0.1)]"
               >
                 <div className="flex items-center justify-between gap-3">
                   <span className="font-mono text-[11px] tracking-[0.14em] text-brand-gray-400">

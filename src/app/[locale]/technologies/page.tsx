@@ -79,7 +79,7 @@ export default async function TechnologiesPage({
               {group.items.map((item) => (
                 <div
                   key={item.name}
-                  className="flex items-start gap-4 rounded-2xl border border-brand-border bg-white p-6 transition-all hover:-translate-y-1 hover:border-brand-purple"
+                  className="flex items-start gap-4 rounded-2xl border border-brand-border bg-white p-6 transition-[transform,box-shadow,border-color] hover:-translate-y-1 hover:border-brand-purple"
                 >
                   <div
                     className="h-[52px] w-[52px] shrink-0 rounded-[14px] border border-brand-border bg-[#FAF8FC] bg-contain bg-center bg-no-repeat"
