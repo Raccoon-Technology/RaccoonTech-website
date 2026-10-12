@@ -1,0 +1,401 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "technologies": "Tecnologias",
+    "about": "Sobre",
+    "contact": "Contato",
+    "cta": "Solicitar orçamento"
+  },
+  "home": {
+    "badge": "Software sob medida",
+    "heroTitle": "Seu software feito sob medida — sem enrolação técnica.",
+    "heroSubtitle": "Sites, catálogos, lojas virtuais e sistemas de gestão desenvolvidos com tecnologia atual e acompanhamento próximo. A gente entende seu processo primeiro, escreve código depois.",
+    "ctaPrimary": "Solicitar orçamento",
+    "ctaSecondary": "Ver serviços",
+    "trust1": "Resposta em até 24h",
+    "trust2": "Escopo e prazo por contrato",
+    "trust3": "Suporte pós-entrega",
+    "briefingLabel": "briefing.raccoon",
+    "briefingStatus": "pronto",
+    "briefingRow1k": "Tipo de projeto",
+    "briefingRow1v": "Sistema de gestão",
+    "briefingRow2k": "Prazo estimado",
+    "briefingRow2v": "8 a 12 semanas",
+    "briefingRow3k": "Stack sugerida",
+    "briefingRow3v": "React + Spring Boot",
+    "briefingRow4k": "Diagnóstico inicial",
+    "briefingRow4v": "Gratuito",
+    "briefingButton": "Começar meu briefing",
+    "diferenciaisEyebrow": "Por que nos escolher",
+    "diferenciaisTitle": "Tecnologia atual, conversa em português.",
+    "diferencial1Title": "Escopo claro antes do código",
+    "diferencial1Desc": "Você recebe escopo, prazo e valor por escrito. Sem surpresa no meio do projeto e sem “isso não estava combinado”.",
+    "diferencial2Title": "Conversa sem jargão",
+    "diferencial2Desc": "Explicamos decisões técnicas em linguagem de negócio. Você entende o que está pagando e por quê.",
+    "diferencial3Title": "Código que outro time consegue manter",
+    "diferencial3Desc": "Tecnologias consolidadas, documentação e entrega dos acessos. O projeto é seu — inclusive o repositório.",
+    "servicesEyebrow": "Serviços",
+    "servicesTitle": "O que a gente constrói",
+    "viewAllServices": "Ver todos os serviços →",
+    "ctaBannerTitle": "Tem um projeto em mente? Vamos dimensionar juntos.",
+    "ctaBannerSubtitle": "Conte o que você precisa e devolvemos escopo, prazo e valor — sem compromisso e em linguagem que dá para entender.",
+    "ctaBannerButton": "Solicitar orçamento"
+  },
+  "stats": {
+    "stat1n": "+5 anos",
+    "stat1l": "de experiência acumulada em desenvolvimento",
+    "stat2n": "24h",
+    "stat2l": "prazo médio de resposta a novos contatos",
+    "stat3n": "3–12",
+    "stat3l": "semanas de prazo típico, do briefing ao ar",
+    "stat4n": "90 dias",
+    "stat4l": "de suporte e correções inclusos após a entrega"
+  },
+  "services": {
+    "eyebrow": "Serviços",
+    "pageTitle": "Do site institucional ao sistema que roda sua operação.",
+    "pageSubtitle": "Escolhemos a solução pelo seu objetivo de negócio — não pela tecnologia da moda. Todo projeto começa com um diagnóstico gratuito.",
+    "idealLabel": "Ideal para",
+    "requestButton": "Pedir orçamento",
+    "includedTitle": "O que está sempre incluído",
+    "landingPage": {
+      "title": "Landing Page",
+      "desc": "Página única focada em conversão, para campanha, lançamento ou captação de leads.",
+      "prazo": "1 a 3 semanas",
+      "ideal": "campanhas e lançamentos",
+      "fullDesc": "Uma página, um objetivo: fazer o visitante agir. Estrutura pensada para conversão, carregamento rápido e mensuração desde o primeiro dia.",
+      "item1": "Copy e estrutura orientadas a conversão",
+      "item2": "Formulário ou WhatsApp integrado",
+      "item3": "SEO técnico e performance",
+      "item4": "Google Analytics e pixel de campanha"
+    },
+    "institutionalSite": {
+      "title": "Site Institucional",
+      "desc": "A presença digital da sua empresa: credibilidade, serviços e canais de contato.",
+      "prazo": "3 a 6 semanas",
+      "ideal": "empresas que precisam de credibilidade",
+      "fullDesc": "O cartão de visitas da sua empresa. Apresenta quem você é, o que faz e por que confiar — com espaço para crescer depois.",
+      "item1": "Até 8 páginas com identidade própria",
+      "item2": "Painel para você editar textos e imagens",
+      "item3": "Blog opcional para conteúdo",
+      "item4": "Responsivo e otimizado para busca"
+    },
+    "catalog": {
+      "title": "Catálogo Digital",
+      "desc": "Seus produtos organizados, atualizáveis e prontos para compartilhar por link.",
+      "prazo": "3 a 5 semanas",
+      "ideal": "distribuidoras e representantes",
+      "fullDesc": "Substitui o PDF desatualizado no WhatsApp. Produtos organizados por categoria, com busca, filtros e pedido direto por mensagem.",
+      "item1": "Cadastro de produtos e categorias",
+      "item2": "Busca, filtros e variações",
+      "item3": "Orçamento via WhatsApp em 1 toque",
+      "item4": "Atualização sem depender de nós"
+    },
+    "ecommerce": {
+      "title": "E-commerce / Loja Virtual",
+      "desc": "Venda online com pagamento, frete e gestão de pedidos integrados.",
+      "prazo": "6 a 12 semanas",
+      "ideal": "quem vende e quer escalar",
+      "fullDesc": "Loja completa com checkout, meios de pagamento, cálculo de frete e gestão de pedidos — pronta para o volume crescer.",
+      "item1": "Pagamento (Pix, cartão, boleto)",
+      "item2": "Cálculo de frete e rastreio",
+      "item3": "Painel de pedidos e estoque",
+      "item4": "Cupons, campanhas e relatórios"
+    },
+    "management": {
+      "title": "Sistema de Gestão Interna",
+      "desc": "Estoque, pedidos, clientes e equipe no lugar da planilha que já não dá conta.",
+      "prazo": "8 a 16 semanas",
+      "ideal": "operações que travaram na planilha",
+      "fullDesc": "Mapeamos seu processo real e transformamos em sistema: menos retrabalho, menos erro manual e informação no mesmo lugar.",
+      "item1": "Módulos sob seu processo, não genéricos",
+      "item2": "Perfis e permissões por usuário",
+      "item3": "Relatórios e exportações",
+      "item4": "Integração com ERP, fiscal ou API"
+    },
+    "customSoftware": {
+      "title": "Software sob Medida",
+      "desc": "Quando nada pronto resolve: desenvolvemos exatamente o que sua operação exige.",
+      "prazo": "a definir",
+      "ideal": "problemas sem solução de prateleira",
+      "fullDesc": "Plataformas, portais, automações e integrações. Começamos por um diagnóstico técnico e um MVP que prova o valor rápido.",
+      "item1": "Diagnóstico e proposta de arquitetura",
+      "item2": "MVP em ciclos curtos de entrega",
+      "item3": "APIs e integrações entre sistemas",
+      "item4": "Evolução contínua com o time"
+    },
+    "garantia1t": "Contrato e escopo",
+    "garantia1p": "Escopo, prazo, valor e formas de pagamento definidos em contrato antes de começar.",
+    "garantia2t": "Suporte pós-entrega",
+    "garantia2p": "90 dias de correções e ajustes inclusos, sem cobrança adicional.",
+    "garantia3t": "Código é seu",
+    "garantia3p": "Repositório, acessos e documentação entregues no fim do projeto.",
+    "garantia4t": "Acompanhamento",
+    "garantia4p": "Entregas em ciclos curtos com demonstração do que está funcionando."
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "pageTitle": "Estamos preparando os primeiros cases para publicação.",
+    "pageSubtitle": "Já temos projetos em andamento. Assim que a liberação dos clientes sair, cada case entra aqui com contexto, solução e resultado.",
+    "comingSoon": "Em breve",
+    "ctaTitle": "Quer ser um dos nossos primeiros cases?",
+    "ctaSubtitle": "Projetos que entram agora recebem atenção total do time e condições especiais de lançamento. Vale a conversa.",
+    "case1": {
+      "slot": "case 01",
+      "category": "Sistema de gestão",
+      "title": "Operação logística",
+      "desc": "Controle de pedidos e rotas para uma distribuidora regional."
+    },
+    "case2": {
+      "slot": "case 02",
+      "category": "E-commerce",
+      "title": "Loja de nicho",
+      "desc": "Checkout, estoque e campanhas integrados em uma só plataforma."
+    },
+    "case3": {
+      "slot": "case 03",
+      "category": "Site institucional",
+      "title": "Empresa de serviços",
+      "desc": "Reposicionamento digital com foco em geração de contato."
+    },
+    "case4": {
+      "slot": "case 04",
+      "category": "Catálogo digital",
+      "title": "Representação comercial",
+      "desc": "Catálogo com filtros e pedido direto por WhatsApp."
+    },
+    "case5": {
+      "slot": "case 05",
+      "category": "Landing page",
+      "title": "Campanha de lançamento",
+      "desc": "Página de captação com testes de mensagem e mensuração."
+    },
+    "case6": {
+      "slot": "case 06",
+      "category": "Software sob medida",
+      "title": "Integração entre sistemas",
+      "desc": "Automação de rotinas entre ERP e ferramentas internas."
+    }
+  },
+  "technologies": {
+    "eyebrow": "Tecnologias",
+    "pageTitle": "A stack que sustenta o que entregamos.",
+    "pageSubtitle": "Ferramentas maduras, com comunidade grande e mão de obra disponível no mercado. Seu sistema não fica preso a nós.",
+    "frontendLabel": "Frontend",
+    "frontendRole": "interface e experiência",
+    "backendLabel": "Backend",
+    "backendRole": "regras de negócio e dados",
+    "devopsLabel": "Infraestrutura",
+    "devopsRole": "publicação e ambiente",
+    "react": "Interfaces componentizadas, rápidas e fáceis de evoluir.",
+    "vite": "Build enxuto e desenvolvimento com recarga instantânea.",
+    "typescript": "Tipagem que evita bugs antes de chegarem em produção.",
+    "nextjs": "Renderização no servidor e SEO forte para sites e lojas.",
+    "java": "Linguagem madura, estável e com mercado amplo de profissionais.",
+    "spring": "APIs seguras e escaláveis, padrão em sistemas corporativos.",
+    "docker": "Mesmo ambiente em desenvolvimento e produção — deploy previsível.",
+    "whyTitle": "Por que isso importa para você",
+    "why1t": "Sem dependência de fornecedor",
+    "why1p": "São tecnologias populares: você encontra outros profissionais no mercado se precisar.",
+    "why2t": "Preparado para crescer",
+    "why2p": "A arquitetura suporta aumento de acesso e de dados sem reescrever o sistema.",
+    "why3t": "Manutenção mais barata",
+    "why3p": "Ecossistemas com comunidade grande significam menos horas gastas em problema já resolvido."
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "pageTitle": "Somos o time técnico que sua empresa ainda não precisa contratar.",
+    "paragraph1": "A Raccoon Technology nasceu de uma inconformidade simples: bons negócios perdendo tempo e dinheiro com software mal feito, mal explicado e caro de manter.",
+    "paragraph2": "Trabalhamos com desenvolvimento sob medida — do site institucional que precisa transmitir credibilidade até o sistema interno que organiza estoque, pedidos e equipe. Atendemos principalmente empresas, mas também profissionais e pessoas físicas com projetos bem definidos.",
+    "paragraph3": "Nosso jeito de trabalhar é direto: entendemos o processo, propomos o menor escopo que resolve, entregamos em ciclos curtos e mostramos funcionando. Você acompanha o andamento sem precisar saber o que é um deploy.",
+    "paragraph4": "O guaxinim de óculos não está aí por acaso. Guaxinins são curiosos, adaptáveis e resolvem problemas com o que têm em mãos — é exatamente assim que a gente encara cada projeto.",
+    "curiousLabel": "Curioso por natureza",
+    "curiousText": "Cada projeto começa com perguntas — muitas — antes da primeira linha de código.",
+    "valor1t": "Adaptável",
+    "valor1p": "Cada negócio tem um processo. Ajustamos a solução, não o seu jeito de trabalhar.",
+    "valor2t": "Transparente",
+    "valor2p": "Andamento, riscos e decisões técnicas sempre abertos para você.",
+    "valor3t": "Prático",
+    "valor3p": "Preferimos entregar algo funcionando em semanas a prometer perfeição em meses.",
+    "closingTitle": "Conte seu desafio. Devolvemos um plano.",
+    "closingButton": "Solicitar orçamento"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "pageTitle": "Vamos falar sobre o seu projeto.",
+    "pageSubtitle": "Preencha o formulário ou fale direto no WhatsApp. Respondemos em até 24 horas úteis com as próximas perguntas — ou já com uma proposta.",
+    "whatsappTitle": "WhatsApp comercial",
+    "emailContactLabel": "Comercial e orçamentos",
+    "emailSupportLabel": "Suporte técnico",
+    "availability1": "Atendimento remoto — todo o Brasil",
+    "availability2": "Seg a sex, 9h às 18h (BRT)",
+    "formTitle": "Solicitar orçamento",
+    "formSubtitle": "Quanto mais contexto, mais preciso o orçamento. Leva 2 minutos.",
+    "formName": "Nome *",
+    "formNamePlaceholder": "Seu nome completo",
+    "formEmail": "E-mail *",
+    "formEmailPlaceholder": "voce@empresa.com",
+    "formPhone": "Telefone / WhatsApp",
+    "formPhonePlaceholder": "(00) 00000-0000",
+    "formProjectType": "Tipo de projeto",
+    "formBudget": "Orçamento previsto",
+    "formDeadline": "Prazo desejado",
+    "formMessage": "Mensagem *",
+    "formMessagePlaceholder": "Conte o que você precisa, o que já existe hoje e qual resultado espera.",
+    "formSubmit": "Enviar pedido de orçamento",
+    "formSending": "Enviando...",
+    "formPrivacyNote": "Seus dados são usados apenas para responder este contato.",
+    "formErrorBanner": "Não foi possível enviar sua mensagem. Tente novamente ou fale pelo WhatsApp.",
+    "selectPlaceholder": "Selecione...",
+    "projectTypes": [
+      "Landing Page",
+      "Site Institucional",
+      "Catálogo Digital",
+      "E-commerce / Loja Virtual",
+      "Sistema de Gestão Interna",
+      "Software sob Medida",
+      "Ainda não sei"
+    ],
+    "budgets": [
+      "Até R$ 5 mil",
+      "R$ 5 mil a R$ 15 mil",
+      "R$ 15 mil a R$ 40 mil",
+      "Acima de R$ 40 mil",
+      "Preciso de orientação"
+    ],
+    "deadlines": [
+      "O quanto antes",
+      "1 a 3 meses",
+      "3 a 6 meses",
+      "Sem data definida"
+    ],
+    "successTitle": "Recebemos seu briefing.",
+    "successText": "Vamos responder em até 24 horas úteis no e-mail informado. Se preferir agilizar, chame no WhatsApp.",
+    "successButton": "Enviar outro pedido",
+    "whatsapp": "Falar no WhatsApp",
+    "formPrivacyLink": "Política de privacidade"
+  },
+  "footer": {
+    "tagline": "Software sob medida",
+    "blurb": "Sites, catálogos, e-commerce e sistemas de gestão para empresas que querem crescer com tecnologia confiável.",
+    "navigation": "Navegação",
+    "rights": "Todos os direitos reservados.",
+    "privacy": "Política de privacidade"
+  },
+  "meta": {
+    "siteName": "Raccoon Technology",
+    "ogTagline": "Software sob medida",
+    "home": {
+      "title": "Software sob medida, sites e sistemas | Raccoon Technology",
+      "description": "Desenvolvemos sites, landing pages, lojas virtuais, catálogos e sistemas de gestão sob medida para empresas. Escopo claro, prazo em contrato e suporte pós-entrega."
+    },
+    "services": {
+      "title": "Serviços",
+      "description": "Landing pages, sites institucionais, catálogos digitais, e-commerce, sistemas de gestão e software sob medida, com escopo, prazo e valor definidos antes de começar."
+    },
+    "projects": {
+      "title": "Projetos",
+      "description": "Os primeiros cases da Raccoon Technology estão sendo preparados para publicação."
+    },
+    "technologies": {
+      "title": "Tecnologias",
+      "description": "React, Next.js, TypeScript, Vite, Java, Spring Boot e Docker: a stack que usamos para entregar sistemas sólidos e fáceis de manter."
+    },
+    "about": {
+      "title": "Sobre",
+      "description": "Conheça a Raccoon Technology: um time técnico que entende o seu processo primeiro e escreve código depois."
+    },
+    "contact": {
+      "title": "Contato e orçamento",
+      "description": "Conte sobre o seu projeto e receba escopo, prazo e valor. Respondemos em até 24 horas úteis, por formulário ou WhatsApp."
+    },
+    "privacy": {
+      "title": "Política de privacidade",
+      "description": "Como a Raccoon Technology trata os dados pessoais enviados pelo site, em conformidade com a LGPD."
+    }
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "text": "O endereço que você tentou acessar não existe ou foi movido.",
+    "button": "Voltar para a home"
+  },
+  "error": {
+    "title": "Algo deu errado",
+    "text": "Tivemos um problema ao carregar esta página. Tente novamente; se persistir, fale com a gente pelo WhatsApp.",
+    "retry": "Tentar de novo",
+    "home": "Voltar para a home"
+  },
+  "a11y": {
+    "skip": "Pular para o conteúdo",
+    "menu": "Menu",
+    "mainNav": "Navegação principal",
+    "langPT": "Português",
+    "langEN": "English",
+    "language": "Idioma"
+  },
+  "privacy": {
+    "updated": "Última atualização: 12 de outubro de 2026",
+    "intro": "Esta política explica como a Raccoon Technology trata os dados pessoais enviados por meio deste site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018, a LGPD).",
+    "sections": [
+      {
+        "title": "Quem é o controlador",
+        "paragraphs": [
+          "O controlador dos dados é a Raccoon Technology. Para qualquer assunto relacionado a esta política, escreva para contato@raccoontechnology.com.br."
+        ]
+      },
+      {
+        "title": "Quais dados coletamos",
+        "paragraphs": [
+          "Coletamos apenas o que você informa no formulário de contato: nome, e-mail, telefone ou WhatsApp (opcional), tipo de projeto, orçamento previsto, prazo desejado e a mensagem.",
+          "Não pedimos documentos, dados financeiros nem dados pessoais sensíveis."
+        ]
+      },
+      {
+        "title": "Para que usamos os dados",
+        "paragraphs": [
+          "Usamos esses dados para responder ao seu contato, elaborar propostas e dar andamento a negociações iniciadas por você. Não vendemos seus dados e não os usamos para enviar publicidade de terceiros."
+        ]
+      },
+      {
+        "title": "Base legal",
+        "paragraphs": [
+          "O tratamento acontece com base no seu consentimento ao enviar o formulário e na realização de procedimentos preliminares relacionados a um contrato, a pedido do titular (art. 7º, incisos I e V, da LGPD)."
+        ]
+      },
+      {
+        "title": "Com quem compartilhamos",
+        "paragraphs": [
+          "Para operar o site, usamos prestadores que processam dados em nosso nome: a Resend, que entrega por e-mail a mensagem que você envia, e a Vercel, que hospeda o site.",
+          "Se você optar por falar pelo WhatsApp, a conversa também passa a ser regida pelos termos do WhatsApp/Meta."
+        ]
+      },
+      {
+        "title": "Por quanto tempo guardamos",
+        "paragraphs": [
+          "Guardamos suas mensagens pelo tempo necessário para atender ao seu pedido e para cumprir obrigações legais ou regulatórias."
+        ]
+      },
+      {
+        "title": "Seus direitos",
+        "paragraphs": [
+          "Você pode pedir, a qualquer momento, a confirmação de que tratamos seus dados, acesso, correção, anonimização ou eliminação, portabilidade, informações sobre compartilhamento e a revogação do consentimento (art. 18 da LGPD).",
+          "Basta escrever para contato@raccoontechnology.com.br."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Este site usa apenas o cookie necessário para lembrar o idioma que você escolheu. Se passarmos a usar ferramentas de análise ou publicidade, esta política será atualizada."
+        ]
+      },
+      {
+        "title": "Alterações",
+        "paragraphs": [
+          "Podemos atualizar esta política. A data da última atualização fica sempre no topo desta página."
+        ]
+      }
+    ]
+  }
+}

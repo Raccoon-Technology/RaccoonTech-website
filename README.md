@@ -16,6 +16,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Environment variables
+
+Copy `.env.local.example` to `.env.local` and set:
+
+- `RESEND_API_KEY` — API key from [resend.com](https://resend.com) (domain `raccoontechnology.com.br` is already verified there), used by the contact form's `/api/contact` route.
+- `CONTACT_TO_EMAIL` — inbox that receives contact form submissions (defaults to `contato@raccoontechnology.com.br`).
+
+Without `RESEND_API_KEY`, the contact form will show an error when submitted.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

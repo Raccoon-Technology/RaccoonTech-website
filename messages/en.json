@@ -1,0 +1,401 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Request a quote"
+  },
+  "home": {
+    "badge": "Custom software",
+    "heroTitle": "Your software, built to measure — no technical runaround.",
+    "heroSubtitle": "Websites, catalogs, online stores, and management systems built with current technology and close follow-up. We understand your process first, write code second.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "View services",
+    "trust1": "Response within 24h",
+    "trust2": "Scope and timeline by contract",
+    "trust3": "Post-launch support",
+    "briefingLabel": "briefing.raccoon",
+    "briefingStatus": "ready",
+    "briefingRow1k": "Project type",
+    "briefingRow1v": "Management system",
+    "briefingRow2k": "Estimated timeline",
+    "briefingRow2v": "8 to 12 weeks",
+    "briefingRow3k": "Suggested stack",
+    "briefingRow3v": "React + Spring Boot",
+    "briefingRow4k": "Initial diagnosis",
+    "briefingRow4v": "Free",
+    "briefingButton": "Start my briefing",
+    "diferenciaisEyebrow": "Why choose us",
+    "diferenciaisTitle": "Current technology, plain-language conversation.",
+    "diferencial1Title": "Clear scope before any code",
+    "diferencial1Desc": "You get scope, timeline, and price in writing. No surprises mid-project and no “that wasn't part of the deal.”",
+    "diferencial2Title": "No jargon, just business talk",
+    "diferencial2Desc": "We explain technical decisions in business language. You understand what you're paying for and why.",
+    "diferencial3Title": "Code another team can maintain",
+    "diferencial3Desc": "Established technologies, documentation, and full access handed over. The project is yours — including the repository.",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "What we build",
+    "viewAllServices": "View all services →",
+    "ctaBannerTitle": "Have a project in mind? Let's size it up together.",
+    "ctaBannerSubtitle": "Tell us what you need and we'll get back with scope, timeline, and price — no commitment, in language you can actually understand.",
+    "ctaBannerButton": "Request a quote"
+  },
+  "stats": {
+    "stat1n": "5+ years",
+    "stat1l": "of accumulated development experience",
+    "stat2n": "24h",
+    "stat2l": "average response time to new inquiries",
+    "stat3n": "3–12",
+    "stat3l": "weeks typical timeline, from briefing to launch",
+    "stat4n": "90 days",
+    "stat4l": "of support and fixes included after delivery"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "pageTitle": "From institutional websites to the system that runs your operation.",
+    "pageSubtitle": "We choose the solution based on your business goal — not on the trendiest technology. Every project starts with a free assessment.",
+    "idealLabel": "Ideal for",
+    "requestButton": "Request a quote",
+    "includedTitle": "What's always included",
+    "landingPage": {
+      "title": "Landing Page",
+      "desc": "A single page focused on conversion, for campaigns, launches, or lead capture.",
+      "prazo": "1 to 3 weeks",
+      "ideal": "campaigns and launches",
+      "fullDesc": "One page, one goal: get the visitor to act. Structured for conversion, fast loading, and measurement from day one.",
+      "item1": "Conversion-oriented copy and structure",
+      "item2": "Integrated form or WhatsApp",
+      "item3": "Technical SEO and performance",
+      "item4": "Google Analytics and campaign pixel"
+    },
+    "institutionalSite": {
+      "title": "Institutional Website",
+      "desc": "Your company's digital presence: credibility, services, and contact channels.",
+      "prazo": "3 to 6 weeks",
+      "ideal": "companies that need credibility",
+      "fullDesc": "Your company's business card. Shows who you are, what you do, and why to trust you — with room to grow later.",
+      "item1": "Up to 8 pages with your own identity",
+      "item2": "Panel for you to edit text and images",
+      "item3": "Optional blog for content",
+      "item4": "Responsive and search-optimized"
+    },
+    "catalog": {
+      "title": "Digital Catalog",
+      "desc": "Your products organized, updatable, and ready to share via link.",
+      "prazo": "3 to 5 weeks",
+      "ideal": "distributors and sales reps",
+      "fullDesc": "Replaces the outdated PDF sitting in WhatsApp. Products organized by category, with search, filters, and direct ordering by message.",
+      "item1": "Product and category management",
+      "item2": "Search, filters, and variants",
+      "item3": "One-tap WhatsApp quote request",
+      "item4": "Updates without depending on us"
+    },
+    "ecommerce": {
+      "title": "E-commerce / Online Store",
+      "desc": "Sell online with payment, shipping, and order management built in.",
+      "prazo": "6 to 12 weeks",
+      "ideal": "sellers ready to scale",
+      "fullDesc": "A complete store with checkout, payment methods, shipping calculation, and order management — ready for volume to grow.",
+      "item1": "Payment (Pix, card, boleto)",
+      "item2": "Shipping calculation and tracking",
+      "item3": "Order and inventory panel",
+      "item4": "Coupons, campaigns, and reports"
+    },
+    "management": {
+      "title": "Internal Management System",
+      "desc": "Inventory, orders, customers, and staff in place of the spreadsheet that can't keep up.",
+      "prazo": "8 to 16 weeks",
+      "ideal": "operations stuck on spreadsheets",
+      "fullDesc": "We map your real process and turn it into a system: less rework, fewer manual errors, and information all in one place.",
+      "item1": "Modules built around your process, not generic ones",
+      "item2": "User roles and permissions",
+      "item3": "Reports and exports",
+      "item4": "Integration with ERP, tax systems, or APIs"
+    },
+    "customSoftware": {
+      "title": "Custom Software",
+      "desc": "When nothing off-the-shelf works: we build exactly what your operation requires.",
+      "prazo": "to be defined",
+      "ideal": "problems with no shelf-ready solution",
+      "fullDesc": "Platforms, portals, automations, and integrations. We start with a technical assessment and an MVP that proves value fast.",
+      "item1": "Assessment and architecture proposal",
+      "item2": "MVP delivered in short cycles",
+      "item3": "APIs and system integrations",
+      "item4": "Continuous evolution with the team"
+    },
+    "garantia1t": "Contract and scope",
+    "garantia1p": "Scope, timeline, price, and payment terms defined in a contract before we start.",
+    "garantia2t": "Post-launch support",
+    "garantia2p": "90 days of fixes and adjustments included, at no extra cost.",
+    "garantia3t": "The code is yours",
+    "garantia3p": "Repository, access, and documentation handed over at the end of the project.",
+    "garantia4t": "Ongoing visibility",
+    "garantia4p": "Delivery in short cycles with demos of what's already working."
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "pageTitle": "We're preparing our first cases for publication.",
+    "pageSubtitle": "We already have projects underway. As soon as clients sign off, each case will appear here with context, solution, and results.",
+    "comingSoon": "Coming soon",
+    "ctaTitle": "Want to be one of our first cases?",
+    "ctaSubtitle": "Projects that start now get the team's full attention and special launch terms. Worth the conversation.",
+    "case1": {
+      "slot": "case 01",
+      "category": "Management system",
+      "title": "Logistics operation",
+      "desc": "Order and route control for a regional distributor."
+    },
+    "case2": {
+      "slot": "case 02",
+      "category": "E-commerce",
+      "title": "Niche store",
+      "desc": "Checkout, inventory, and campaigns integrated into a single platform."
+    },
+    "case3": {
+      "slot": "case 03",
+      "category": "Institutional website",
+      "title": "Services company",
+      "desc": "Digital repositioning focused on generating contacts."
+    },
+    "case4": {
+      "slot": "case 04",
+      "category": "Digital catalog",
+      "title": "Sales representation",
+      "desc": "Catalog with filters and direct WhatsApp ordering."
+    },
+    "case5": {
+      "slot": "case 05",
+      "category": "Landing page",
+      "title": "Launch campaign",
+      "desc": "Lead capture page with message testing and measurement."
+    },
+    "case6": {
+      "slot": "case 06",
+      "category": "Custom software",
+      "title": "System integration",
+      "desc": "Automating routines between an ERP and internal tools."
+    }
+  },
+  "technologies": {
+    "eyebrow": "Technologies",
+    "pageTitle": "The stack behind what we deliver.",
+    "pageSubtitle": "Mature tools with large communities and available talent in the market. Your system isn't locked to us.",
+    "frontendLabel": "Frontend",
+    "frontendRole": "interface and experience",
+    "backendLabel": "Backend",
+    "backendRole": "business logic and data",
+    "devopsLabel": "Infrastructure",
+    "devopsRole": "deployment and environment",
+    "react": "Component-based interfaces that are fast and easy to evolve.",
+    "vite": "Lean builds and development with instant reload.",
+    "typescript": "Typing that catches bugs before they reach production.",
+    "nextjs": "Server-side rendering and strong SEO for sites and stores.",
+    "java": "A mature, stable language with a large talent pool.",
+    "spring": "Secure, scalable APIs — the standard for enterprise systems.",
+    "docker": "The same environment in development and production — predictable deploys.",
+    "whyTitle": "Why this matters to you",
+    "why1t": "No vendor lock-in",
+    "why1p": "These are popular technologies: you can find other professionals in the market if you ever need to.",
+    "why2t": "Built to grow",
+    "why2p": "The architecture handles more traffic and data without rewriting the system.",
+    "why3t": "Cheaper maintenance",
+    "why3p": "Large-community ecosystems mean fewer hours spent solving problems that are already solved."
+  },
+  "about": {
+    "eyebrow": "About",
+    "pageTitle": "We're the technical team your company doesn't need to hire yet.",
+    "paragraph1": "Raccoon Technology was born from a simple frustration: good businesses losing time and money on software that's poorly built, poorly explained, and expensive to maintain.",
+    "paragraph2": "We work on custom development — from the institutional website that needs to convey credibility to the internal system that organizes inventory, orders, and staff. We mainly serve companies, but also professionals and individuals with well-defined projects.",
+    "paragraph3": "Our way of working is direct: we understand the process, propose the smallest scope that solves it, deliver in short cycles, and show it working. You follow progress without needing to know what a deploy is.",
+    "paragraph4": "The raccoon with glasses isn't there by accident. Raccoons are curious, adaptable, and solve problems with whatever they have on hand — that's exactly how we approach every project.",
+    "curiousLabel": "Curious by nature",
+    "curiousText": "Every project starts with questions — lots of them — before the first line of code.",
+    "valor1t": "Adaptable",
+    "valor1p": "Every business has its own process. We adjust the solution, not how you work.",
+    "valor2t": "Transparent",
+    "valor2p": "Progress, risks, and technical decisions are always open to you.",
+    "valor3t": "Practical",
+    "valor3p": "We'd rather deliver something working in weeks than promise perfection in months.",
+    "closingTitle": "Tell us your challenge. We'll hand back a plan.",
+    "closingButton": "Request a quote"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "pageTitle": "Let's talk about your project.",
+    "pageSubtitle": "Fill out the form or reach us directly on WhatsApp. We reply within 24 business hours with follow-up questions — or already with a proposal.",
+    "whatsappTitle": "Business WhatsApp",
+    "emailContactLabel": "Sales and quotes",
+    "emailSupportLabel": "Technical support",
+    "availability1": "Remote service — all of Brazil",
+    "availability2": "Mon to Fri, 9am to 6pm (BRT)",
+    "formTitle": "Request a quote",
+    "formSubtitle": "The more context, the more accurate the quote. Takes 2 minutes.",
+    "formName": "Name *",
+    "formNamePlaceholder": "Your full name",
+    "formEmail": "Email *",
+    "formEmailPlaceholder": "you@company.com",
+    "formPhone": "Phone / WhatsApp",
+    "formPhonePlaceholder": "(00) 00000-0000",
+    "formProjectType": "Project type",
+    "formBudget": "Expected budget",
+    "formDeadline": "Desired timeline",
+    "formMessage": "Message *",
+    "formMessagePlaceholder": "Tell us what you need, what already exists today, and what result you expect.",
+    "formSubmit": "Send quote request",
+    "formSending": "Sending...",
+    "formPrivacyNote": "Your data is used only to respond to this contact.",
+    "formErrorBanner": "We couldn't send your message. Please try again or reach us on WhatsApp.",
+    "selectPlaceholder": "Select...",
+    "projectTypes": [
+      "Landing Page",
+      "Institutional Website",
+      "Digital Catalog",
+      "E-commerce / Online Store",
+      "Internal Management System",
+      "Custom Software",
+      "Not sure yet"
+    ],
+    "budgets": [
+      "Up to R$ 5,000",
+      "R$ 5,000 to R$ 15,000",
+      "R$ 15,000 to R$ 40,000",
+      "Above R$ 40,000",
+      "I need guidance"
+    ],
+    "deadlines": [
+      "As soon as possible",
+      "1 to 3 months",
+      "3 to 6 months",
+      "No set date"
+    ],
+    "successTitle": "We've received your briefing.",
+    "successText": "We'll reply within 24 business hours at the email you provided. If you'd like to speed things up, message us on WhatsApp.",
+    "successButton": "Send another request",
+    "whatsapp": "Chat on WhatsApp",
+    "formPrivacyLink": "Privacy policy"
+  },
+  "footer": {
+    "tagline": "Custom software",
+    "blurb": "Websites, catalogs, e-commerce, and management systems for companies that want to grow with reliable technology.",
+    "navigation": "Navigation",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy policy"
+  },
+  "meta": {
+    "siteName": "Raccoon Technology",
+    "ogTagline": "Custom software",
+    "home": {
+      "title": "Custom software, websites and systems | Raccoon Technology",
+      "description": "We build custom websites, landing pages, online stores, catalogs and management systems for companies. Clear scope, timeline in writing and post-launch support."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Landing pages, institutional websites, digital catalogs, e-commerce, management systems and custom software, with scope, timeline and price defined before we start."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Raccoon Technology's first case studies are being prepared for publication."
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "React, Next.js, TypeScript, Vite, Java, Spring Boot and Docker: the stack we use to deliver solid, maintainable systems."
+    },
+    "about": {
+      "title": "About",
+      "description": "Meet Raccoon Technology: a technical team that understands your process first and writes code second."
+    },
+    "contact": {
+      "title": "Contact and quote",
+      "description": "Tell us about your project and get scope, timeline and price. We reply within 24 business hours, by form or WhatsApp."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "How Raccoon Technology handles personal data submitted through the website, in line with Brazil's LGPD."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The address you tried to open doesn't exist or has been moved.",
+    "button": "Back to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "text": "We had a problem loading this page. Try again; if it persists, reach us on WhatsApp.",
+    "retry": "Try again",
+    "home": "Back to home"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "mainNav": "Main navigation",
+    "langPT": "Português",
+    "langEN": "English",
+    "language": "Language"
+  },
+  "privacy": {
+    "updated": "Last updated: October 12, 2026",
+    "intro": "This policy explains how Raccoon Technology handles personal data submitted through this website, in line with Brazil's General Data Protection Law (Law No. 13,709/2018, the LGPD).",
+    "sections": [
+      {
+        "title": "Who is the controller",
+        "paragraphs": [
+          "The data controller is Raccoon Technology. For anything related to this policy, write to contato@raccoontechnology.com.br."
+        ]
+      },
+      {
+        "title": "What data we collect",
+        "paragraphs": [
+          "We only collect what you enter in the contact form: name, email, phone or WhatsApp (optional), project type, expected budget, desired timeline and your message.",
+          "We don't ask for ID documents, financial data or sensitive personal data."
+        ]
+      },
+      {
+        "title": "What we use it for",
+        "paragraphs": [
+          "We use this data to reply to you, prepare proposals and move forward with conversations you started. We don't sell your data and don't use it to send third-party advertising."
+        ]
+      },
+      {
+        "title": "Legal basis",
+        "paragraphs": [
+          "Processing is based on your consent when you submit the form and on preliminary procedures related to a contract, at the data subject's request (art. 7, items I and V, of the LGPD)."
+        ]
+      },
+      {
+        "title": "Who we share it with",
+        "paragraphs": [
+          "To run the site we use providers that process data on our behalf: Resend, which delivers the message you send by email, and Vercel, which hosts the site.",
+          "If you choose to talk on WhatsApp, the conversation is also governed by WhatsApp/Meta's terms."
+        ]
+      },
+      {
+        "title": "How long we keep it",
+        "paragraphs": [
+          "We keep your messages for as long as needed to handle your request and to meet legal or regulatory obligations."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "You can ask at any time for confirmation that we process your data, access, correction, anonymization or deletion, portability, information about sharing, and withdrawal of consent (art. 18 of the LGPD).",
+          "Just write to contato@raccoontechnology.com.br."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "This site only uses the cookie needed to remember the language you chose. If we start using analytics or advertising tools, this policy will be updated."
+        ]
+      },
+      {
+        "title": "Changes",
+        "paragraphs": [
+          "We may update this policy. The date of the last update is always shown at the top of this page."
+        ]
+      }
+    ]
+  }
+}
