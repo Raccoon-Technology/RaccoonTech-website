@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import Container from "@/components/Container";
 import Eyebrow from "@/components/Eyebrow";
 import ContactForm from "@/components/ContactForm";
+import InstagramIcon from "@/components/InstagramIcon";
 import { siteConfig, whatsappLink } from "@/lib/site-config";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/contact">) {
@@ -67,6 +68,22 @@ export default async function ContactPage({
                 </span>
               </a>
             ))}
+            <a
+              href={siteConfig.instagram.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3.5 rounded-2xl border border-brand-border bg-white px-5 py-[18px] transition-all hover:border-brand-purple hover:shadow-[0_12px_30px_rgba(18,18,18,0.06)]"
+            >
+              <span className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-xl bg-brand-purple-10 text-brand-purple">
+                <InstagramIcon />
+              </span>
+              <span className="flex flex-col">
+                <span className="text-[15.5px] font-semibold text-brand-black">
+                  {t("instagramTitle")}
+                </span>
+                <span className="text-sm text-brand-gray">@{siteConfig.instagram.handle}</span>
+              </span>
+            </a>
           </div>
 
           <div className="mt-7 font-mono text-xs leading-[1.9] tracking-[0.04em] text-brand-gray-400">

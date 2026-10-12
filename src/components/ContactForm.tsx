@@ -2,13 +2,14 @@
 
 import { FormEvent, useState } from "react";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
 export default function ContactForm() {
   const t = useTranslations("contact");
+  const locale = useLocale();
   const [status, setStatus] = useState<Status>("idle");
   const [startedAt] = useState(() => Date.now());
 
@@ -27,7 +28,7 @@ export default function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, elapsed: Date.now() - startedAt }),
+        body: JSON.stringify({ ...data, locale, elapsed: Date.now() - startedAt }),
       });
       if (!res.ok) throw new Error("request failed");
       setStatus("sent");

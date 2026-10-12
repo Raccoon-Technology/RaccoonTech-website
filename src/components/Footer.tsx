@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import Container from "./Container";
+import InstagramIcon from "./InstagramIcon";
 import { siteConfig, whatsappLink } from "@/lib/site-config";
 
 const NAV_ITEMS = [
@@ -106,6 +107,14 @@ export default function Footer() {
               className="text-[14.5px] text-white/72 transition-colors hover:text-white"
             >
               {siteConfig.emails.support}
+            </a>
+            <a
+              href={siteConfig.instagram.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-[14.5px] text-white/72 transition-colors hover:text-white"
+            >
+              <InstagramIcon className="h-4 w-4" />@{siteConfig.instagram.handle}
             </a>
           </div>
           <Link

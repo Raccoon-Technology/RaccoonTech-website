@@ -44,8 +44,8 @@
     "ctaBannerButton": "Solicitar orçamento"
   },
   "stats": {
-    "stat1n": "+5 anos",
-    "stat1l": "de experiência acumulada em desenvolvimento",
+    "stat1n": "+3 anos",
+    "stat1l": "de experiência em desenvolvimento",
     "stat2n": "24h",
     "stat2l": "prazo médio de resposta a novos contatos",
     "stat3n": "3–12",
@@ -275,7 +275,8 @@
     "successText": "Vamos responder em até 24 horas úteis no e-mail informado. Se preferir agilizar, chame no WhatsApp.",
     "successButton": "Enviar outro pedido",
     "whatsapp": "Falar no WhatsApp",
-    "formPrivacyLink": "Política de privacidade"
+    "formPrivacyLink": "Política de privacidade",
+    "instagramTitle": "Acompanhe no Instagram"
   },
   "footer": {
     "tagline": "Software sob medida",

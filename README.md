@@ -25,6 +25,19 @@ Copy `.env.local.example` to `.env.local` and set:
 
 Without `RESEND_API_KEY`, the contact form will show an error when submitted.
 
+## Emails
+
+The contact form sends two branded emails (code in `src/lib/email/`):
+
+- **New lead notification** to `CONTACT_TO_EMAIL`, with the submitted data and reply buttons (email and WhatsApp).
+- **Automatic confirmation** to the visitor, in the language of the page they used. It echoes none of the free-text fields. Turn it off with `autoReplyToVisitors: false` in `src/lib/site-config.ts`.
+
+Templates for answering leads by hand live in `email-templates/` (`reply.pt-BR.html`, `reply.en.html`, `signature.html`). Open one in a browser, edit the `[bracketed]` parts, select everything and paste into your mail client (for the signature, paste it into Gmail's signature settings). Their logo loads from the deployed site, so it only appears once the site is live. Regenerate them after changing the layout:
+
+```bash
+npx tsx scripts/generate-email-templates.ts
+```
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

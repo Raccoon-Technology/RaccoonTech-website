@@ -56,6 +56,19 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
   const tA11y = await getTranslations("a11y");
+  const tMeta = await getTranslations("meta");
+
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    logo: `${siteConfig.url}/logo.png`,
+    description: tMeta("home.description"),
+    email: siteConfig.emails.contact,
+    telephone: `+${siteConfig.whatsapp.number}`,
+    sameAs: [siteConfig.instagram.url],
+  };
 
   return (
     <html
@@ -63,6 +76,12 @@ export default async function LocaleLayout({
       className={`${spaceGrotesk.variable} ${ibmPlexSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
         <NextIntlClientProvider>
           <a
             href="#main"

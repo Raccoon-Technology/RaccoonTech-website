@@ -44,8 +44,8 @@
     "ctaBannerButton": "Request a quote"
   },
   "stats": {
-    "stat1n": "5+ years",
-    "stat1l": "of accumulated development experience",
+    "stat1n": "3+ years",
+    "stat1l": "of development experience",
     "stat2n": "24h",
     "stat2l": "average response time to new inquiries",
     "stat3n": "3–12",
@@ -275,7 +275,8 @@
     "successText": "We'll reply within 24 business hours at the email you provided. If you'd like to speed things up, message us on WhatsApp.",
     "successButton": "Send another request",
     "whatsapp": "Chat on WhatsApp",
-    "formPrivacyLink": "Privacy policy"
+    "formPrivacyLink": "Privacy policy",
+    "instagramTitle": "Follow on Instagram"
   },
   "footer": {
     "tagline": "Custom software",

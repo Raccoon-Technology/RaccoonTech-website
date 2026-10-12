@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
+import { EMAIL_LOGO_BASE64 } from "@/lib/email/logo-data";
+import { LOGO_CID, contactNotification, visitorConfirmation } from "@/lib/email/templates";
 
 const LIMITS = { name: 100, email: 200, phone: 40, option: 100, message: 5000 };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -58,6 +61,7 @@ export async function POST(request: Request) {
   const budget = field(body.budget, LIMITS.option);
   const deadline = field(body.deadline, LIMITS.option);
   const message = field(body.message, LIMITS.message);
+  const locale = routing.locales.find((l) => l === body.locale) ?? routing.defaultLocale;
 
   if (!name || !message || !EMAIL_RE.test(email)) {
     return NextResponse.json({ error: "Missing or invalid fields" }, { status: 400 });
@@ -70,30 +74,53 @@ export async function POST(request: Request) {
   }
 
   const resend = new Resend(apiKey);
-  const safeName = name.replace(/[\r\n]+/g, " ");
+  const from = `Raccoon Technology <contato@${siteConfig.domain}>`;
+  const logo = {
+    filename: "logo.png",
+    content: Buffer.from(EMAIL_LOGO_BASE64, "base64"),
+    contentType: "image/png",
+    contentId: LOGO_CID,
+  };
+
+  const notification = contactNotification({
+    name,
+    email,
+    phone,
+    projectType,
+    budget,
+    deadline,
+    message,
+    locale,
+  });
 
   const { error } = await resend.emails.send({
-    from: `Site Raccoon Technology <contato@${siteConfig.domain}>`,
+    from,
     to: process.env.CONTACT_TO_EMAIL ?? siteConfig.emails.contact,
     replyTo: email,
-    subject: `Novo contato pelo site — ${safeName}`,
-    text: [
-      `Nome: ${name}`,
-      `E-mail: ${email}`,
-      phone ? `Telefone: ${phone}` : null,
-      projectType ? `Tipo de projeto: ${projectType}` : null,
-      budget ? `Orçamento previsto: ${budget}` : null,
-      deadline ? `Prazo desejado: ${deadline}` : null,
-      "",
-      message,
-    ]
-      .filter((line) => line !== null)
-      .join("\n"),
+    subject: notification.subject,
+    html: notification.html,
+    text: notification.text,
+    attachments: [logo],
   });
 
   if (error) {
     console.error("Resend error:", error);
     return NextResponse.json({ error: "Failed to send email" }, { status: 502 });
+  }
+
+  // The lead is already safely delivered; a failed confirmation must not fail the request.
+  if (siteConfig.autoReplyToVisitors) {
+    const confirmation = visitorConfirmation({ name, locale });
+    const { error: confirmationError } = await resend.emails.send({
+      from,
+      to: email,
+      replyTo: siteConfig.emails.contact,
+      subject: confirmation.subject,
+      html: confirmation.html,
+      text: confirmation.text,
+      attachments: [logo],
+    });
+    if (confirmationError) console.error("Resend confirmation error:", confirmationError);
   }
 
   return NextResponse.json({ ok: true });
