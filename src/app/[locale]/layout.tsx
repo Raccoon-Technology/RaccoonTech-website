@@ -63,11 +63,19 @@ export default async function LocaleLayout({
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/logo.png`,
+    logo: `${siteConfig.url}/logo-square.png`,
     description: tMeta("home.description"),
     email: siteConfig.emails.contact,
     telephone: `+${siteConfig.whatsapp.number}`,
     sameAs: [siteConfig.instagram.url],
+  };
+
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    alternateName: "Raccoon Tech",
+    url: siteConfig.url,
   };
 
   return (
@@ -79,7 +87,7 @@ export default async function LocaleLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c"),
+            __html: JSON.stringify([organizationJsonLd, websiteJsonLd]).replace(/</g, "\\u003c"),
           }}
         />
         <NextIntlClientProvider>
