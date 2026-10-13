@@ -259,10 +259,11 @@
       "Ainda não sei"
     ],
     "budgets": [
-      "Até R$ 5 mil",
-      "R$ 5 mil a R$ 15 mil",
-      "R$ 15 mil a R$ 40 mil",
-      "Acima de R$ 40 mil",
+      "Até R$ 1.500",
+      "R$ 1.500 a R$ 3 mil",
+      "R$ 3 mil a R$ 8 mil",
+      "R$ 8 mil a R$ 20 mil",
+      "Acima de R$ 20 mil",
       "Preciso de orientação"
     ],
     "deadlines": [

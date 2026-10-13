@@ -259,10 +259,11 @@
       "Not sure yet"
     ],
     "budgets": [
-      "Up to R$ 5,000",
-      "R$ 5,000 to R$ 15,000",
-      "R$ 15,000 to R$ 40,000",
-      "Above R$ 40,000",
+      "Up to R$ 1,500",
+      "R$ 1,500 to R$ 3,000",
+      "R$ 3,000 to R$ 8,000",
+      "R$ 8,000 to R$ 20,000",
+      "Above R$ 20,000",
       "I need guidance"
     ],
     "deadlines": [

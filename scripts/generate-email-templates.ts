@@ -42,7 +42,7 @@ if (previewFlag !== -1) {
     email: "mariana@empresa.com.br",
     phone: "(92) 98888-7777",
     projectType: "Sistema de Gestão Interna",
-    budget: "R$ 15 mil a R$ 40 mil",
+    budget: "R$ 8 mil a R$ 20 mil",
     deadline: "1 a 3 meses",
     message:
       "Olá! Temos uma distribuidora e hoje controlamos pedidos e estoque em planilhas.\nGostaríamos de um sistema para organizar isso e emitir relatórios.",
