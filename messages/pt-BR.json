@@ -41,7 +41,9 @@
     "viewAllServices": "Ver todos os serviços →",
     "ctaBannerTitle": "Tem um projeto em mente? Vamos dimensionar juntos.",
     "ctaBannerSubtitle": "Conte o que você precisa e devolvemos escopo, prazo e valor — sem compromisso e em linguagem que dá para entender.",
-    "ctaBannerButton": "Solicitar orçamento"
+    "ctaBannerButton": "Solicitar orçamento",
+    "localTitle": "De Manaus para todo o Brasil",
+    "localText": "Somos uma empresa de Manaus e atendemos clientes de todo o país, de forma remota. Veja como trabalhamos em cada serviço:"
   },
   "stats": {
     "stat1n": "+3 anos",
@@ -133,7 +135,38 @@
     "garantia3t": "Código é seu",
     "garantia3p": "Repositório, acessos e documentação entregues no fim do projeto.",
     "garantia4t": "Acompanhamento",
-    "garantia4p": "Entregas em ciclos curtos com demonstração do que está funcionando."
+    "garantia4p": "Entregas em ciclos curtos com demonstração do que está funcionando.",
+    "faqTitle": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "Como funciona o processo, do primeiro contato à entrega?",
+        "a": "Começamos com um diagnóstico gratuito para entender o seu negócio. Depois você recebe escopo, prazo e valor por escrito, sem compromisso. O desenvolvimento acontece em ciclos curtos, com demonstrações do que já está funcionando, e no fim entregamos o código, os acessos e a documentação."
+      },
+      {
+        "q": "Quanto custa um projeto?",
+        "a": "Depende do que o projeto precisa ter. Uma landing page simples custa bem menos do que uma loja virtual ou um sistema de gestão. Por isso começamos pelo menor escopo que resolve o seu problema e passamos o valor por escrito antes de qualquer código."
+      },
+      {
+        "q": "Quanto tempo leva?",
+        "a": "Como referência: landing page, de 1 a 3 semanas; site institucional, de 3 a 6; catálogo digital, de 3 a 5; loja virtual, de 6 a 12; sistema de gestão, de 8 a 16. Software sob medida tem o prazo definido depois do diagnóstico."
+      },
+      {
+        "q": "O projeto e o código ficam comigo?",
+        "a": "Sim. Ao fim do projeto você recebe o repositório, os acessos e a documentação. Usamos tecnologias populares, para que outros profissionais consigam dar manutenção se um dia você precisar."
+      },
+      {
+        "q": "Tem suporte depois da entrega?",
+        "a": "Sim. Os 90 dias de suporte e correções estão inclusos, sem cobrança adicional. Depois disso, podemos continuar evoluindo o projeto juntos."
+      },
+      {
+        "q": "Vocês atendem clientes de outras cidades?",
+        "a": "Sim. Somos de Manaus e atendemos empresas e profissionais de todo o Brasil, de forma remota, por WhatsApp, e-mail e chamadas de vídeo."
+      },
+      {
+        "q": "Como peço um orçamento?",
+        "a": "Preencha o formulário de contato ou chame no WhatsApp. Respondemos em até 24 horas úteis, com as próximas perguntas ou já com uma proposta."
+      }
+    ]
   },
   "projects": {
     "eyebrow": "Projetos",
@@ -220,7 +253,9 @@
     "valor3t": "Prático",
     "valor3p": "Preferimos entregar algo funcionando em semanas a prometer perfeição em meses.",
     "closingTitle": "Conte seu desafio. Devolvemos um plano.",
-    "closingButton": "Solicitar orçamento"
+    "closingButton": "Solicitar orçamento",
+    "paragraphLocation": "Somos de Manaus, no Amazonas, e atendemos empresas e profissionais de todo o Brasil, de forma remota.",
+    "locationLabel": "Onde estamos"
   },
   "contact": {
     "eyebrow": "Contato",
@@ -229,7 +264,7 @@
     "whatsappTitle": "WhatsApp comercial",
     "emailContactLabel": "Comercial e orçamentos",
     "emailSupportLabel": "Suporte técnico",
-    "availability1": "Atendimento remoto — todo o Brasil",
+    "availability1": "Sediada em Manaus (AM) · atendimento remoto em todo o Brasil",
     "availability2": "Seg a sex, 9h às 18h (BRT)",
     "formTitle": "Solicitar orçamento",
     "formSubtitle": "Quanto mais contexto, mais preciso o orçamento. Leva 2 minutos.",
@@ -284,18 +319,19 @@
     "blurb": "Sites, catálogos, e-commerce e sistemas de gestão para empresas que querem crescer com tecnologia confiável.",
     "navigation": "Navegação",
     "rights": "Todos os direitos reservados.",
-    "privacy": "Política de privacidade"
+    "privacy": "Política de privacidade",
+    "location": "Manaus, Amazonas · atendimento em todo o Brasil"
   },
   "meta": {
     "siteName": "Raccoon Technology",
     "ogTagline": "Software sob medida",
     "home": {
-      "title": "Software sob medida, sites e sistemas | Raccoon Technology",
-      "description": "Desenvolvemos sites, landing pages, lojas virtuais, catálogos e sistemas de gestão sob medida para empresas. Escopo claro, prazo em contrato e suporte pós-entrega."
+      "title": "Software sob medida, sites e sistemas em Manaus | Raccoon Technology",
+      "description": "Empresa de Manaus que desenvolve sites, landing pages, lojas virtuais, catálogos e sistemas de gestão sob medida, com atendimento em todo o Brasil. Escopo claro, prazo em contrato e suporte pós-entrega."
     },
     "services": {
       "title": "Serviços",
-      "description": "Landing pages, sites institucionais, catálogos digitais, e-commerce, sistemas de gestão e software sob medida, com escopo, prazo e valor definidos antes de começar."
+      "description": "Landing pages, sites institucionais, catálogos digitais, e-commerce, sistemas de gestão e software sob medida, com escopo, prazo e valor definidos antes de começar. Atendimento em Manaus e em todo o Brasil."
     },
     "projects": {
       "title": "Projetos",
@@ -399,5 +435,174 @@
         ]
       }
     ]
+  },
+  "local": {
+    "eyebrow": "Manaus · Amazonas",
+    "includesTitle": "O que entregamos",
+    "forWhoTitle": "Para quem faz sentido",
+    "timelineLabel": "Prazo típico",
+    "stepsTitle": "Como funciona",
+    "steps": [
+      {
+        "title": "Diagnóstico gratuito",
+        "text": "Conversamos para entender o seu negócio, o seu processo e o que você espera do projeto."
+      },
+      {
+        "title": "Escopo, prazo e valor por escrito",
+        "text": "Você recebe a proposta com tudo combinado antes de qualquer código, sem compromisso."
+      },
+      {
+        "title": "Desenvolvimento em ciclos curtos",
+        "text": "Entregamos em etapas e mostramos funcionando, para você acompanhar sem precisar entender de tecnologia."
+      },
+      {
+        "title": "Entrega e suporte",
+        "text": "No fim você recebe o código, os acessos e a documentação, com 90 dias de suporte e correções inclusos."
+      }
+    ],
+    "faqTitle": "Perguntas frequentes",
+    "othersTitle": "Outros serviços em Manaus",
+    "ctaTitle": "Vamos conversar sobre o seu projeto em Manaus?",
+    "ctaText": "Conte o que você precisa e devolvemos escopo, prazo e valor, sem compromisso e em linguagem que dá para entender.",
+    "pages": {
+      "sites": {
+        "navLabel": "Criação de sites",
+        "metaTitle": "Criação de sites em Manaus: landing pages e sites institucionais",
+        "metaDescription": "Criação de sites em Manaus e todo o Brasil: landing pages, sites institucionais e catálogos digitais. Escopo, prazo e valor por escrito, com suporte após a entrega. Peça seu orçamento.",
+        "h1": "Criação de sites em Manaus",
+        "intro": "A Raccoon Technology é de Manaus e cria sites para empresas e profissionais da cidade e de todo o Brasil. Do cartão de visitas digital à landing page de campanha, a gente entende o seu negócio primeiro e só depois escreve código.",
+        "items": [
+          "Landing pages focadas em conversão, para campanhas e lançamentos",
+          "Sites institucionais com identidade própria e responsivos, prontos para o celular",
+          "Catálogos digitais com pedido direto por WhatsApp",
+          "Painel para você editar textos e imagens sem depender de nós",
+          "Formulário de contato e WhatsApp integrados",
+          "Site rápido, com HTTPS e preparado para aparecer no Google"
+        ],
+        "forWho": [
+          "Empresas de Manaus que ainda não têm site ou têm um site desatualizado",
+          "Profissionais autônomos que querem passar mais credibilidade",
+          "Quem vai lançar um produto, um serviço ou uma campanha"
+        ],
+        "timeline": "Landing page: 1 a 3 semanas. Site institucional: 3 a 6 semanas. Catálogo digital: 3 a 5 semanas.",
+        "faq": [
+          {
+            "q": "Quanto custa criar um site em Manaus?",
+            "a": "Depende do que o site precisa ter: uma landing page simples custa bem menos do que um site com várias páginas e painel de edição. Por isso começamos pelo menor escopo que resolve o seu problema e passamos escopo, prazo e valor por escrito, sem compromisso."
+          },
+          {
+            "q": "Quanto tempo leva para o site ficar pronto?",
+            "a": "Uma landing page costuma levar de 1 a 3 semanas, e um site institucional de 3 a 6 semanas. O prazo exato entra na proposta."
+          },
+          {
+            "q": "O site fica sendo meu?",
+            "a": "Sim. Ao fim do projeto você recebe o código, os acessos e a documentação."
+          }
+        ]
+      },
+      "store": {
+        "navLabel": "Loja virtual",
+        "metaTitle": "Loja virtual em Manaus: criação de e-commerce sob medida",
+        "metaDescription": "Criação de loja virtual e e-commerce em Manaus e todo o Brasil, com pagamento por Pix, cartão e boleto, cálculo de frete e painel de pedidos. Peça seu orçamento.",
+        "h1": "Loja virtual em Manaus",
+        "intro": "Criamos lojas virtuais sob medida para quem quer vender pela internet, em Manaus ou para o Brasil inteiro. Do cadastro de produtos ao pagamento e à gestão dos pedidos, tudo pensado para a sua operação.",
+        "items": [
+          "Checkout com Pix, cartão e boleto",
+          "Cálculo de frete e rastreio",
+          "Painel de pedidos e estoque",
+          "Cupons, campanhas e relatórios",
+          "Cadastro de produtos, categorias e variações",
+          "Loja rápida e responsiva, pronta para vender pelo celular"
+        ],
+        "forWho": [
+          "Lojas físicas de Manaus que querem começar a vender online",
+          "Quem já vende por Instagram e WhatsApp e quer organizar pedidos e pagamentos",
+          "Marcas que querem uma loja própria, sem depender de marketplace"
+        ],
+        "timeline": "6 a 12 semanas, dependendo da quantidade de produtos e das integrações.",
+        "faq": [
+          {
+            "q": "Qual a diferença entre loja virtual e catálogo digital?",
+            "a": "O catálogo mostra os produtos e o pedido sai por mensagem, sem pagamento no site. A loja virtual tem carrinho, pagamento e gestão de pedidos. Se você está começando, o catálogo pode ser um primeiro passo mais simples."
+          },
+          {
+            "q": "Quais formas de pagamento a loja aceita?",
+            "a": "Pix, cartão e boleto, por meio de plataformas de pagamento. A escolha da plataforma entra na conversa de escopo."
+          },
+          {
+            "q": "Consigo acompanhar pedidos e estoque?",
+            "a": "Sim. A loja inclui um painel para acompanhar os pedidos e o estoque."
+          }
+        ]
+      },
+      "systems": {
+        "navLabel": "Sistemas de gestão",
+        "metaTitle": "Sistemas de gestão em Manaus: software sob medida para sua empresa",
+        "metaDescription": "Desenvolvimento de sistemas de gestão em Manaus e todo o Brasil: estoque, pedidos, clientes e equipe em um só lugar, no lugar de planilhas. Peça um diagnóstico gratuito.",
+        "h1": "Sistemas de gestão em Manaus",
+        "intro": "Se a sua operação depende de planilhas, mensagens soltas e controles manuais, um sistema de gestão sob medida pode organizar tudo no mesmo lugar. A Raccoon Technology, de Manaus, mapeia o seu processo real e transforma em sistema.",
+        "items": [
+          "Módulos feitos para o seu processo, não genéricos",
+          "Perfis e permissões por usuário",
+          "Relatórios e exportações",
+          "Integração com ERP, sistemas fiscais ou APIs",
+          "Acesso pelo navegador, no computador ou no celular"
+        ],
+        "forWho": [
+          "Empresas que controlam estoque, pedidos ou clientes em planilhas",
+          "Operações com várias pessoas mexendo nas mesmas informações",
+          "Negócios que cresceram e já não cabem nas ferramentas prontas"
+        ],
+        "timeline": "8 a 16 semanas, com entregas em ciclos curtos para você ver o sistema funcionando desde cedo.",
+        "faq": [
+          {
+            "q": "Quando vale a pena trocar a planilha por um sistema?",
+            "a": "Quando o retrabalho, os erros manuais ou a dificuldade de saber o que está acontecendo começam a custar mais do que o sistema. O diagnóstico gratuito ajuda a avaliar isso."
+          },
+          {
+            "q": "Quais tecnologias vocês usam?",
+            "a": "Trabalhamos com Java e Spring Boot no servidor, React e Next.js nas telas e Docker para a publicação. São tecnologias populares, que outros profissionais também conhecem."
+          },
+          {
+            "q": "Cada pessoa vê tudo no sistema?",
+            "a": "Não. Cada pessoa acessa só o que precisa, com perfis e permissões por usuário. Os detalhes de segurança e de hospedagem entram na conversa de escopo."
+          }
+        ]
+      },
+      "software": {
+        "navLabel": "Desenvolvimento de software",
+        "metaTitle": "Desenvolvimento de software sob medida em Manaus",
+        "metaDescription": "Desenvolvimento de software sob medida em Manaus e todo o Brasil: plataformas, portais, automações e integrações entre sistemas. Comece por um diagnóstico gratuito.",
+        "h1": "Desenvolvimento de software sob medida em Manaus",
+        "intro": "Quando nenhuma ferramenta pronta resolve, a gente constrói. A Raccoon Technology desenvolve plataformas, portais, automações e integrações para empresas de Manaus e do Brasil, começando por um diagnóstico técnico e por um MVP que prova o valor rápido.",
+        "items": [
+          "Diagnóstico e proposta de arquitetura",
+          "MVP em ciclos curtos de entrega",
+          "APIs e integrações entre sistemas",
+          "Automação de rotinas repetitivas",
+          "Evolução contínua depois do lançamento"
+        ],
+        "forWho": [
+          "Empresas com um processo único que nenhum software pronto atende",
+          "Quem quer validar uma ideia de produto digital",
+          "Quem precisa conectar sistemas que hoje não conversam entre si"
+        ],
+        "timeline": "Definido depois do diagnóstico, porque depende do tamanho do problema. O MVP é o primeiro marco.",
+        "faq": [
+          {
+            "q": "O que é um MVP?",
+            "a": "É a primeira versão funcional do software, só com o essencial para testar a ideia na prática. Assim você vê valor rápido e decide os próximos passos com base no uso real."
+          },
+          {
+            "q": "Vocês fazem sistemas web ou aplicativos?",
+            "a": "Trabalhamos principalmente com sistemas e plataformas web, que funcionam no computador e no celular pelo navegador."
+          },
+          {
+            "q": "Como funciona o suporte depois da entrega?",
+            "a": "Os 90 dias de suporte e correções estão inclusos. Depois disso, podemos continuar evoluindo o sistema juntos."
+          }
+        ]
+      }
+    }
   }
 }

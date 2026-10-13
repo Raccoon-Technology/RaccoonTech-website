@@ -7,6 +7,7 @@ import Button from "@/components/Button";
 import Eyebrow from "@/components/Eyebrow";
 import StatsGrid from "@/components/StatsGrid";
 import { whatsappLink } from "@/lib/site-config";
+import { LOCAL_PAGES } from "@/lib/local-pages";
 
 const SERVICE_KEYS = [
   "landingPage",
@@ -29,6 +30,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const t = await getTranslations("home");
   const tServices = await getTranslations("services");
   const tContact = await getTranslations("contact");
+  const tLocal = locale === "pt-BR" ? await getTranslations("local") : null;
 
   const briefingRows = [1, 2, 3, 4].map((n) => ({
     k: t(`briefingRow${n}k`),
@@ -187,6 +189,30 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           </div>
         </Container>
       </section>
+
+      {/* LOCAL (Portuguese only) */}
+      {tLocal && (
+        <section className="pb-[clamp(56px,7vw,88px)]">
+          <Container>
+            <Eyebrow>{tLocal("eyebrow")}</Eyebrow>
+            <h2 className="mt-3.5 text-[clamp(26px,3vw,38px)] leading-[1.12]">{t("localTitle")}</h2>
+            <p className="mt-3 max-w-[620px] text-[16.5px] leading-[1.65] text-brand-gray">
+              {t("localText")}
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {LOCAL_PAGES.map((page) => (
+                <Link
+                  key={page.key}
+                  href={`/${page.slug}`}
+                  className="rounded-full border border-brand-purple-border px-5 py-3 text-[14.5px] font-semibold text-brand-purple transition-colors hover:bg-brand-purple-hover"
+                >
+                  {tLocal(`pages.${page.key}.navLabel`)} em Manaus →
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* CTA BANNER */}
       <Container className="pb-[clamp(72px,9vw,112px)]">

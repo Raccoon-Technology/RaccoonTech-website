@@ -1,9 +1,10 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import Container from "./Container";
 import InstagramIcon from "./InstagramIcon";
 import { siteConfig, whatsappLink } from "@/lib/site-config";
+import { LOCAL_PAGES } from "@/lib/local-pages";
 
 const NAV_ITEMS = [
   { href: "/", key: "home" },
@@ -18,6 +19,7 @@ export default function Footer() {
   const t = useTranslations("nav");
   const tFooter = useTranslations("footer");
   const tServices = useTranslations("services");
+  const locale = useLocale();
   const year = new Date().getFullYear();
 
   const serviceKeys = [
@@ -28,6 +30,20 @@ export default function Footer() {
     "management",
     "customSoftware",
   ] as const;
+
+  // In Portuguese each service links to its Manaus landing page; elsewhere to the services page.
+  const serviceHref = (key: (typeof serviceKeys)[number]) => {
+    if (locale !== "pt-BR") return "/services";
+    const target =
+      key === "ecommerce"
+        ? "store"
+        : key === "management"
+          ? "systems"
+          : key === "customSoftware"
+            ? "software"
+            : "sites";
+    return `/${LOCAL_PAGES.find((p) => p.key === target)!.slug}`;
+  };
 
   return (
     <footer className="mt-auto bg-brand-black text-white">
@@ -46,6 +62,9 @@ export default function Footer() {
           </div>
           <p className="mt-4.5 max-w-[300px] text-[14.5px] leading-relaxed text-white/60">
             {tFooter("blurb")}
+          </p>
+          <p className="mt-3 max-w-[300px] font-mono text-[11.5px] leading-[1.7] tracking-[0.04em] text-white/60">
+            {tFooter("location")}
           </p>
         </div>
 
@@ -74,7 +93,7 @@ export default function Footer() {
             {serviceKeys.map((key) => (
               <Link
                 key={key}
-                href="/services"
+                href={serviceHref(key)}
                 className="text-left text-[14.5px] text-white/72 transition-colors hover:text-white"
               >
                 {tServices(`${key}.title`)}

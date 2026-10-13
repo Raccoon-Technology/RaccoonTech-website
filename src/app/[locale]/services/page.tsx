@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import Container from "@/components/Container";
 import Eyebrow from "@/components/Eyebrow";
+import FaqList, { type FaqItem } from "@/components/FaqList";
 
 const SERVICE_KEYS = [
   "landingPage",
@@ -25,6 +26,7 @@ export default async function ServicesPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("services");
+  const faq = t.raw("faq") as FaqItem[];
 
   return (
     <>
@@ -90,7 +92,7 @@ export default async function ServicesPage({
         </Container>
       </section>
 
-      <section className="pt-[clamp(40px,5vw,60px)] pb-[clamp(72px,9vw,104px)]">
+      <section className="pt-[clamp(40px,5vw,60px)] pb-[clamp(48px,6vw,72px)]">
         <Container>
           <div className="rounded-[18px] border border-brand-border bg-brand-soft p-[clamp(28px,4vw,44px)]">
             <h2 className="text-[clamp(24px,2.8vw,32px)]">{t("includedTitle")}</h2>
@@ -106,6 +108,15 @@ export default async function ServicesPage({
                 </div>
               ))}
             </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="pb-[clamp(72px,9vw,104px)]">
+        <Container className="max-w-3xl">
+          <h2 className="text-[clamp(24px,2.8vw,32px)]">{t("faqTitle")}</h2>
+          <div className="mt-6">
+            <FaqList items={faq} />
           </div>
         </Container>
       </section>

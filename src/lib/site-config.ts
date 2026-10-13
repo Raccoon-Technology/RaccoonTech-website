@@ -10,6 +10,12 @@ export const siteConfig = {
     number: "5592985569300",
     display: "+55 (92) 98556-9300",
   },
+  location: {
+    city: "Manaus",
+    region: "AM",
+    regionName: "Amazonas",
+    country: "BR",
+  },
   instagram: {
     handle: "raccoontechnology",
     url: "https://www.instagram.com/raccoontechnology/",

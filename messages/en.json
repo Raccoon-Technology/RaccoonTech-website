@@ -133,7 +133,38 @@
     "garantia3t": "The code is yours",
     "garantia3p": "Repository, access, and documentation handed over at the end of the project.",
     "garantia4t": "Ongoing visibility",
-    "garantia4p": "Delivery in short cycles with demos of what's already working."
+    "garantia4p": "Delivery in short cycles with demos of what's already working.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "How does the process work, from first contact to delivery?",
+        "a": "We start with a free assessment to understand your business. Then you get scope, timeline and price in writing, with no commitment. Development happens in short cycles with demos of what's already working, and at the end we hand over the code, access and documentation."
+      },
+      {
+        "q": "How much does a project cost?",
+        "a": "It depends on what the project needs. A simple landing page costs far less than an online store or a management system. That's why we start with the smallest scope that solves your problem and give you the price in writing before any code."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "As a reference: landing page, 1 to 3 weeks; institutional website, 3 to 6; digital catalog, 3 to 5; online store, 6 to 12; management system, 8 to 16. Custom software gets its timeline after the assessment."
+      },
+      {
+        "q": "Do the project and the code stay with me?",
+        "a": "Yes. At the end of the project you receive the repository, access and documentation. We use popular technologies, so other professionals can maintain it if you ever need that."
+      },
+      {
+        "q": "Is there support after delivery?",
+        "a": "Yes. 90 days of support and fixes are included at no extra cost. After that, we can keep evolving the project together."
+      },
+      {
+        "q": "Do you work with clients in other cities?",
+        "a": "Yes. We're based in Manaus and work remotely with companies and professionals across Brazil, over WhatsApp, email and video calls."
+      },
+      {
+        "q": "How do I request a quote?",
+        "a": "Fill out the contact form or message us on WhatsApp. We reply within 24 business hours, with follow-up questions or already with a proposal."
+      }
+    ]
   },
   "projects": {
     "eyebrow": "Projects",
@@ -220,7 +251,9 @@
     "valor3t": "Practical",
     "valor3p": "We'd rather deliver something working in weeks than promise perfection in months.",
     "closingTitle": "Tell us your challenge. We'll hand back a plan.",
-    "closingButton": "Request a quote"
+    "closingButton": "Request a quote",
+    "paragraphLocation": "We're based in Manaus, in Brazil's Amazonas state, and work remotely with companies and professionals across the country.",
+    "locationLabel": "Where we are"
   },
   "contact": {
     "eyebrow": "Contact",
@@ -229,7 +262,7 @@
     "whatsappTitle": "Business WhatsApp",
     "emailContactLabel": "Sales and quotes",
     "emailSupportLabel": "Technical support",
-    "availability1": "Remote service — all of Brazil",
+    "availability1": "Based in Manaus, Brazil · remote service nationwide",
     "availability2": "Mon to Fri, 9am to 6pm (BRT)",
     "formTitle": "Request a quote",
     "formSubtitle": "The more context, the more accurate the quote. Takes 2 minutes.",
@@ -284,14 +317,15 @@
     "blurb": "Websites, catalogs, e-commerce, and management systems for companies that want to grow with reliable technology.",
     "navigation": "Navigation",
     "rights": "All rights reserved.",
-    "privacy": "Privacy policy"
+    "privacy": "Privacy policy",
+    "location": "Manaus, Amazonas, Brazil · serving clients nationwide"
   },
   "meta": {
     "siteName": "Raccoon Technology",
     "ogTagline": "Custom software",
     "home": {
       "title": "Custom software, websites and systems | Raccoon Technology",
-      "description": "We build custom websites, landing pages, online stores, catalogs and management systems for companies. Clear scope, timeline in writing and post-launch support."
+      "description": "A Manaus, Brazil company building custom websites, landing pages, online stores, catalogs and management systems for clients nationwide. Clear scope, timeline in writing and post-launch support."
     },
     "services": {
       "title": "Services",

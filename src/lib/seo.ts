@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { getPathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
+import { LOCAL_PAGES, type LocalPageKey } from "@/lib/local-pages";
 
 type PageKey = "home" | "services" | "projects" | "technologies" | "about" | "contact" | "privacy";
 
@@ -50,5 +51,28 @@ export async function buildMetadata(locale: string, page: PageKey): Promise<Meta
     },
     twitter: { card: "summary_large_image", title, description },
     robots: hidden ? { index: false, follow: false } : undefined,
+  };
+}
+
+export async function buildLocalMetadata(locale: string, key: LocalPageKey): Promise<Metadata> {
+  const page = LOCAL_PAGES.find((p) => p.key === key)!;
+  const t = await getTranslations({ locale, namespace: "local" });
+  const title = t(`pages.${key}.metaTitle`);
+  const description = t(`pages.${key}.metaDescription`);
+  const url = localizedPath("pt-BR", `/${page.slug}`);
+
+  return {
+    title: { absolute: title },
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      siteName: siteConfig.name,
+      title,
+      description,
+      url,
+      locale: "pt_BR",
+    },
+    twitter: { card: "summary_large_image", title, description },
   };
 }

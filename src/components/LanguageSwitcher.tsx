@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { isLocalPagePath } from "@/lib/local-pages";
 
 const LOCALES: { code: "pt-BR" | "en"; label: string; nameKey: "langPT" | "langEN" }[] = [
   { code: "pt-BR", label: "PT", nameKey: "langPT" },
@@ -24,7 +25,11 @@ export default function LanguageSwitcher() {
         <button
           key={code}
           type="button"
-          onClick={() => router.replace(pathname, { locale: code })}
+          onClick={() =>
+            router.replace(code === "en" && isLocalPagePath(pathname) ? "/" : pathname, {
+              locale: code,
+            })
+          }
           className={`cursor-pointer rounded-full px-2.5 py-[5px] transition-colors ${
             locale === code
               ? "bg-brand-purple text-white"

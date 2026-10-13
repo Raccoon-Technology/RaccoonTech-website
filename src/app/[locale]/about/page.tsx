@@ -37,6 +37,14 @@ export default async function AboutPage({
             <p>{t("paragraph2")}</p>
             <p>{t("paragraph3")}</p>
             <p>{t("paragraph4")}</p>
+            <div className="mt-2 rounded-2xl border border-brand-border border-l-4 border-l-brand-purple bg-brand-soft px-6 py-5">
+              <div className="font-mono text-[11px] tracking-[0.18em] text-brand-purple uppercase">
+                {t("locationLabel")}
+              </div>
+              <p className="mt-2 text-[16px] leading-[1.65] text-brand-black">
+                {t("paragraphLocation")}
+              </p>
+            </div>
           </div>
           <div className="flex flex-col gap-4.5">
             <div className="flex flex-col items-center rounded-[18px] border border-brand-border bg-brand-soft px-6 py-[30px] text-center">

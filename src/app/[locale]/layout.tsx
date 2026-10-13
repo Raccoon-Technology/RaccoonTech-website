@@ -60,13 +60,24 @@ export default async function LocaleLayout({
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "ProfessionalService"],
     name: siteConfig.name,
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo-square.png`,
     description: tMeta("home.description"),
     email: siteConfig.emails.contact,
     telephone: `+${siteConfig.whatsapp.number}`,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: siteConfig.location.city,
+      addressRegion: siteConfig.location.region,
+      addressCountry: siteConfig.location.country,
+    },
+    areaServed: [
+      { "@type": "City", name: siteConfig.location.city },
+      { "@type": "State", name: siteConfig.location.regionName },
+      { "@type": "Country", name: "Brazil" },
+    ],
     sameAs: [siteConfig.instagram.url],
   };
 
